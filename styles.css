@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #003a97;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDk4LWJnLTE0YS5qcGc.jpg');     background-size: cover;
+    background-position: center ;
+  }
+  
+  #app {
+    text-align: center;
+  }
+  
+  #game-board {
+    display: grid;
+    gap: 10px;
+    margin: 20px auto;
+    width: 400px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-style: solid ;
+    cursor: grab ;
+    background-color: rgb(193, 207, 231);
+  }
+  
+  .card img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+  
+  .controls {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgb(193, 207, 231);
+    border-color: #ffffff;
+    color:#003a97;
+    transition: color 0.3s; 
+  }
+
+  button:hover {
+  color: rgb(136, 58, 122); 
+  background-color: #ffaadd;
+  cursor: grab;
+  }
+
+ 
+  
