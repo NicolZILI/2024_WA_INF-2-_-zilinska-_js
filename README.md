@@ -1,1 +1,1 @@
-# 2024_WA_INF-2-_-zilinska-_js
+# 2024_WA_INF2_zilinska_js
