@@ -113,6 +113,4 @@ function restartGame() {
   createGame();
 }
 
-createGame();
-
-
+createGame(); 
